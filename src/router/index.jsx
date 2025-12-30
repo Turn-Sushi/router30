@@ -11,7 +11,23 @@ const Router = () => {
     {
       path: "/",
       Component : Page1
-    }
+    },
+    {
+      path: "/page2",
+      Component : Page2
+    },
+    {
+      path: "/page3",
+      Component : Page3
+    },
+    {
+      path: "/page4",
+      Component : Page4
+    },
+    {
+      path: "/page5",
+      Component : Page5
+    },
   ]);
 
   return (
